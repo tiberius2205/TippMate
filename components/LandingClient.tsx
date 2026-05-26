@@ -47,11 +47,18 @@ export default function LandingClient() {
   }, []);
 
   async function loadHome(id: string) {
-    const [user, groups] = await Promise.all([getUser(id), getMyGroups(id)]);
-    if (user) setProfileName(user.nickname);
-    setUserId(id);
-    setMyGroups(groups);
-    setStep("home");
+    setLoading(true);
+    try {
+      const [user, groups] = await Promise.all([getUser(id), getMyGroups(id)]);
+      if (user) setProfileName(user.nickname);
+      setUserId(id);
+      setMyGroups(groups ?? []);
+      setStep("home");
+    } catch {
+      setError("Verbindungsfehler. Bitte Seite neu laden.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function handleNickname(e: React.FormEvent) {
@@ -62,15 +69,21 @@ export default function LandingClient() {
     }
     setLoading(true);
     setError("");
-    const result = await createUser(nickname.trim());
-    if ("error" in result) {
-      setError(result.error);
-    } else {
-      setStoredUserId(result.id);
-      setProfileName(nickname.trim());
-      await loadHome(result.id);
+    try {
+      const result = await createUser(nickname.trim());
+      if ("error" in result) {
+        setError(result.error);
+        setLoading(false);
+      } else {
+        setStoredUserId(result.id);
+        setProfileName(nickname.trim());
+        await loadHome(result.id);
+        // loadHome manages loading state itself
+      }
+    } catch {
+      setError("Ein Fehler ist aufgetreten.");
+      setLoading(false);
     }
-    setLoading(false);
   }
 
   async function handleCreate(e: React.FormEvent) {
@@ -86,27 +99,37 @@ export default function LandingClient() {
     }
     setLoading(true);
     setError("");
-    const result = await createGroup(groupName.trim(), userId, createAlias.trim());
-    if ("error" in result) {
-      setError(result.error);
-    } else {
-      router.push(`/runde/${result.code}`);
+    try {
+      const result = await createGroup(groupName.trim(), userId, createAlias.trim());
+      if ("error" in result) {
+        setError(result.error);
+      } else {
+        router.push(`/runde/${result.code}`);
+      }
+    } catch {
+      setError("Ein Fehler ist aufgetreten.");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   }
 
   async function handleJoinLookup(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError("");
-    const result = await lookupGroup(joinCode.trim());
-    if ("error" in result) {
-      setError(result.error);
-    } else {
-      setGroupPreview(result);
-      setStep("join-confirm");
+    try {
+      const result = await lookupGroup(joinCode.trim());
+      if ("error" in result) {
+        setError(result.error);
+      } else {
+        setGroupPreview(result);
+        setStep("join-confirm");
+      }
+    } catch {
+      setError("Ein Fehler ist aufgetreten.");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   }
 
   async function handleJoinConfirm(e: React.FormEvent) {
@@ -118,13 +141,18 @@ export default function LandingClient() {
     }
     setLoading(true);
     setError("");
-    const result = await joinGroup(joinCode.trim(), userId, joinAlias.trim());
-    if ("error" in result) {
-      setError(result.error);
-    } else {
-      router.push(`/runde/${joinCode.toUpperCase()}`);
+    try {
+      const result = await joinGroup(joinCode.trim(), userId, joinAlias.trim());
+      if ("error" in result) {
+        setError(result.error);
+      } else {
+        router.push(`/runde/${joinCode.toUpperCase()}`);
+      }
+    } catch {
+      setError("Ein Fehler ist aufgetreten.");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   }
 
   function goHome() {
@@ -230,8 +258,9 @@ export default function LandingClient() {
           <form onSubmit={handleCreate} className="space-y-4">
             <h2 className="text-xl font-semibold">Neue Tipprunde</h2>
             <div className="space-y-1">
-              <label className="text-xs text-gray-400">Name der Runde</label>
+              <label htmlFor="groupName" className="text-xs text-gray-400">Name der Runde</label>
               <input
+                id="groupName"
                 type="text"
                 value={groupName}
                 onChange={(e) => setGroupName(e.target.value)}
@@ -242,8 +271,9 @@ export default function LandingClient() {
               />
             </div>
             <div className="space-y-1">
-              <label className="text-xs text-gray-400">Dein Alias in dieser Runde</label>
+              <label htmlFor="createAlias" className="text-xs text-gray-400">Dein Alias in dieser Runde</label>
               <input
+                id="createAlias"
                 type="text"
                 value={createAlias}
                 onChange={(e) => setCreateAlias(e.target.value)}
@@ -271,8 +301,9 @@ export default function LandingClient() {
           <form onSubmit={handleJoinLookup} className="space-y-4">
             <h2 className="text-xl font-semibold">Tipprunde beitreten</h2>
             <div className="space-y-1">
-              <label className="text-xs text-gray-400">Einladungscode</label>
+              <label htmlFor="joinCode" className="text-xs text-gray-400">Einladungscode</label>
               <input
+                id="joinCode"
                 type="text"
                 value={joinCode}
                 onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
@@ -306,8 +337,9 @@ export default function LandingClient() {
               <p className="text-xs text-gray-500 mt-1">{groupPreview.memberCount} Mitspieler</p>
             </div>
             <div className="space-y-1">
-              <label className="text-xs text-gray-400">Dein Alias in dieser Runde</label>
+              <label htmlFor="joinAlias" className="text-xs text-gray-400">Dein Alias in dieser Runde</label>
               <input
+                id="joinAlias"
                 type="text"
                 value={joinAlias}
                 onChange={(e) => setJoinAlias(e.target.value)}
