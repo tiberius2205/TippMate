@@ -56,9 +56,10 @@ export async function createGroup(
   if (error) return { error: error.message };
 
   // Ersteller sofort als Mitglied hinzufügen
-  await supabase
+  const { error: mErr } = await supabase
     .from("group_members")
     .insert({ group_id: data.id, user_id: userId, alias: alias.trim() });
+  if (mErr) return { error: mErr.message };
 
   return { code: data.code };
 }
@@ -91,7 +92,10 @@ export async function joinGroup(
     .from("group_members")
     .insert({ group_id: group.id, user_id: userId, alias: alias.trim() });
 
-  if (mErr) return { error: mErr.message };
+  if (mErr) {
+    if (mErr.code === "23505") return { error: "Du bist bereits Mitglied dieser Runde." };
+    return { error: mErr.message };
+  }
   return { success: true, groupName: group.name };
 }
 
@@ -117,7 +121,7 @@ export async function lookupGroup(
   if (error || !group) return { error: "Tipprunde nicht gefunden." };
   return {
     name: group.name,
-    memberCount: (group.group_members as Array<{ user_id: string }>).length,
+    memberCount: ((group.group_members as Array<{ user_id: string }>) ?? []).length,
   };
 }
 
@@ -129,8 +133,10 @@ export async function getMyGroups(
     .from("group_members")
     .select("alias, groups(code, name)")
     .eq("user_id", userId);
-  return (data ?? []).map((m) => {
-    const g = m.groups as unknown as { code: string; name: string };
-    return { alias: m.alias, code: g.code, name: g.name };
+  return (data ?? []).flatMap((m) => {
+    const g = m.groups as unknown;
+    if (!g || Array.isArray(g) || typeof g !== "object") return [];
+    const group = g as { code: string; name: string };
+    return [{ alias: m.alias, code: group.code, name: group.name }];
   });
 }
