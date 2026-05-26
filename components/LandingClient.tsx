@@ -55,7 +55,7 @@ export default function LandingClient() {
     }
     setLoading(true);
     setError("");
-    const result = await createGroup(groupName.trim(), userId);
+    const result = await createGroup(groupName.trim(), userId, nickname.trim() || "Anonym");
     if ("error" in result) {
       setError(result.error);
     } else {
@@ -69,7 +69,7 @@ export default function LandingClient() {
     if (!userId) return;
     setLoading(true);
     setError("");
-    const result = await joinGroup(joinCode.trim(), userId);
+    const result = await joinGroup(joinCode.trim(), userId, nickname.trim() || "Anonym");
     if ("error" in result) {
       setError(result.error);
     } else {
