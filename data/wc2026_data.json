@@ -1,0 +1,2710 @@
+{
+  "tournament": {
+    "id": "wc2026",
+    "name": "FIFA World Cup 2026",
+    "start_date": "2026-06-11",
+    "end_date": "2026-07-19",
+    "host_countries": [
+      "US",
+      "CA",
+      "MX"
+    ],
+    "team_count": 48,
+    "group_count": 12,
+    "match_count": 104
+  },
+  "scoring": {
+    "system": "kicktipp_classic",
+    "rules": {
+      "exact_result": 4,
+      "correct_goal_difference": 3,
+      "correct_tendency": 2,
+      "wrong": 0,
+      "knockout_winner_bonus": 1,
+      "comment": "Tipps beziehen sich auf das Ergebnis nach 90 Minuten. Bei K.O.-Spielen zusätzlich +1 Punkt wenn der Weiterkommende richtig getippt wurde (Sieger nach Verlängerung/Elfmeterschießen)."
+    }
+  },
+  "teams": [
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "name_normalised": "Mexico",
+      "flag": "🇲🇽",
+      "group": "A",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "name_normalised": "South Africa",
+      "flag": "🇿🇦",
+      "group": "A",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "name_normalised": "Korea Republic",
+      "flag": "🇰🇷",
+      "group": "A",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "CZE",
+      "name": "Czech Republic",
+      "name_normalised": "Czechia",
+      "flag": "🇨🇿",
+      "group": "A",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "name_normalised": "Canada",
+      "flag": "🇨🇦",
+      "group": "B",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia & Herzegovina",
+      "name_normalised": "Bosnia & Herzegovina",
+      "flag": "🇧🇦",
+      "group": "B",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "name_normalised": "Qatar",
+      "flag": "🇶🇦",
+      "group": "B",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "name_normalised": "Switzerland",
+      "flag": "🇨🇭",
+      "group": "B",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "name_normalised": "Brazil",
+      "flag": "🇧🇷",
+      "group": "C",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "name_normalised": "Morocco",
+      "flag": "🇲🇦",
+      "group": "C",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "HAI",
+      "name": "Haiti",
+      "name_normalised": "Haiti",
+      "flag": "🇭🇹",
+      "group": "C",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    },
+    {
+      "code": "SCO",
+      "name": "Scotland",
+      "name_normalised": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "group": "C",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "USA",
+      "name": "USA",
+      "name_normalised": "United States",
+      "flag": "🇺🇸",
+      "group": "D",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "name_normalised": "Paraguay",
+      "flag": "🇵🇾",
+      "group": "D",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "name_normalised": "Australia",
+      "flag": "🇦🇺",
+      "group": "D",
+      "continent": "Oceania",
+      "confederation": "AFC"
+    },
+    {
+      "code": "TUR",
+      "name": "Turkey",
+      "name_normalised": "Türkiye",
+      "flag": "🇹🇷",
+      "group": "D",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "name_normalised": "Germany",
+      "flag": "🇩🇪",
+      "group": "E",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "CUW",
+      "name": "Curaçao",
+      "name_normalised": "Curaçao",
+      "flag": "🇨🇼",
+      "group": "E",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    },
+    {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "name_normalised": "Cote d'Ivoire",
+      "flag": "🇨🇮",
+      "group": "E",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "name_normalised": "Ecuador",
+      "flag": "🇪🇨",
+      "group": "E",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "name_normalised": "Netherlands",
+      "flag": "🇳🇱",
+      "group": "F",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "name_normalised": "Japan",
+      "flag": "🇯🇵",
+      "group": "F",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "name_normalised": "Sweden",
+      "flag": "🇸🇪",
+      "group": "F",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "name_normalised": "Tunisia",
+      "flag": "🇹🇳",
+      "group": "F",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "name_normalised": "Belgium",
+      "flag": "🇧🇪",
+      "group": "G",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "name_normalised": "Egypt",
+      "flag": "🇪🇬",
+      "group": "G",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "name_normalised": "IR Iran",
+      "flag": "🇮🇷",
+      "group": "G",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "name_normalised": "New Zealand",
+      "flag": "🇳🇿",
+      "group": "G",
+      "continent": "Oceania",
+      "confederation": "OFC"
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "name_normalised": "Spain",
+      "flag": "🇪🇸",
+      "group": "H",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "name_normalised": "Cabo Verde",
+      "flag": "🇨🇻",
+      "group": "H",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "name_normalised": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "group": "H",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "name_normalised": "Uruguay",
+      "flag": "🇺🇾",
+      "group": "H",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "name_normalised": "France",
+      "flag": "🇫🇷",
+      "group": "I",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "name_normalised": "Senegal",
+      "flag": "🇸🇳",
+      "group": "I",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "name_normalised": "Iraq",
+      "flag": "🇮🇶",
+      "group": "I",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "name_normalised": "Norway",
+      "flag": "🇳🇴",
+      "group": "I",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "name_normalised": "Argentina",
+      "flag": "🇦🇷",
+      "group": "J",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "name_normalised": "Algeria",
+      "flag": "🇩🇿",
+      "group": "J",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "name_normalised": "Austria",
+      "flag": "🇦🇹",
+      "group": "J",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "name_normalised": "Jordan",
+      "flag": "🇯🇴",
+      "group": "J",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "name_normalised": "Portugal",
+      "flag": "🇵🇹",
+      "group": "K",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "COD",
+      "name": "DR Congo",
+      "name_normalised": "Congo DR",
+      "flag": "🇨🇩",
+      "group": "K",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "name_normalised": "Uzbekistan",
+      "flag": "🇺🇿",
+      "group": "K",
+      "continent": "Asia",
+      "confederation": "AFC"
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "name_normalised": "Colombia",
+      "flag": "🇨🇴",
+      "group": "K",
+      "continent": "South America",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "code": "ENG",
+      "name": "England",
+      "name_normalised": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "group": "L",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "name_normalised": "Croatia",
+      "flag": "🇭🇷",
+      "group": "L",
+      "continent": "Europe",
+      "confederation": "UEFA"
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "name_normalised": "Ghana",
+      "flag": "🇬🇭",
+      "group": "L",
+      "continent": "Africa",
+      "confederation": "CAF"
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "name_normalised": "Panama",
+      "flag": "🇵🇦",
+      "group": "L",
+      "continent": "North America",
+      "confederation": "CONCACAF"
+    }
+  ],
+  "stadiums": [
+    {
+      "id": "bc_place",
+      "name": "BC Place",
+      "city": "Vancouver",
+      "country": "CA",
+      "capacity": 54000,
+      "timezone_offset": "UTC-7"
+    },
+    {
+      "id": "lumen_field",
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "country": "US",
+      "capacity": 69000,
+      "timezone_offset": "UTC-7"
+    },
+    {
+      "id": "levi_s_stadium",
+      "name": "Levi's Stadium",
+      "city": "San Francisco Bay Area (Santa Clara)",
+      "country": "US",
+      "capacity": 71000,
+      "timezone_offset": "UTC-7"
+    },
+    {
+      "id": "sofi_stadium",
+      "name": "SoFi Stadium",
+      "city": "Los Angeles (Inglewood)",
+      "country": "US",
+      "capacity": 70000,
+      "timezone_offset": "UTC-7"
+    },
+    {
+      "id": "estadio_akron",
+      "name": "Estadio Akron",
+      "city": "Guadalajara (Zapopan)",
+      "country": "MX",
+      "capacity": 48000,
+      "timezone_offset": "UTC-6"
+    },
+    {
+      "id": "estadio_azteca",
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "MX",
+      "capacity": 83000,
+      "timezone_offset": "UTC-6"
+    },
+    {
+      "id": "estadio_bbva",
+      "name": "Estadio BBVA",
+      "city": "Monterrey (Guadalupe)",
+      "country": "MX",
+      "capacity": 53500,
+      "timezone_offset": "UTC-6"
+    },
+    {
+      "id": "nrg_stadium",
+      "name": "NRG Stadium",
+      "city": "Houston",
+      "country": "US",
+      "capacity": 72000,
+      "timezone_offset": "UTC-5"
+    },
+    {
+      "id": "at_t_stadium",
+      "name": "AT&T Stadium",
+      "city": "Dallas (Arlington)",
+      "country": "US",
+      "capacity": 94000,
+      "timezone_offset": "UTC-5"
+    },
+    {
+      "id": "arrowhead_stadium",
+      "name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "US",
+      "capacity": 73000,
+      "timezone_offset": "UTC-5"
+    },
+    {
+      "id": "mercedes_benz_stadium",
+      "name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "US",
+      "capacity": 75000,
+      "timezone_offset": "UTC-4"
+    },
+    {
+      "id": "hard_rock_stadium",
+      "name": "Hard Rock Stadium",
+      "city": "Miami (Miami Gardens)",
+      "country": "US",
+      "capacity": 65000,
+      "timezone_offset": "UTC-4"
+    },
+    {
+      "id": "bmo_field",
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "CA",
+      "capacity": 45000,
+      "timezone_offset": "UTC-4"
+    },
+    {
+      "id": "gillette_stadium",
+      "name": "Gillette Stadium",
+      "city": "Boston (Foxborough)",
+      "country": "US",
+      "capacity": 65000,
+      "timezone_offset": "UTC-4"
+    },
+    {
+      "id": "lincoln_financial_field",
+      "name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "US",
+      "capacity": 69000,
+      "timezone_offset": "UTC-4"
+    },
+    {
+      "id": "metlife_stadium",
+      "name": "MetLife Stadium",
+      "city": "New York/New Jersey (East Rutherford)",
+      "country": "US",
+      "capacity": 82500,
+      "timezone_offset": "UTC-4"
+    }
+  ],
+  "matches": [
+    {
+      "id": "m_001",
+      "match_number": 1,
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "kickoff_local": "2026-06-11T13:00:00-06:00",
+      "kickoff_utc": "2026-06-11T19:00:00Z",
+      "kickoff_berlin": "2026-06-11T21:00:00+02:00",
+      "stadium_id": "estadio_azteca",
+      "home": {
+        "code": "MEX",
+        "placeholder": null
+      },
+      "away": {
+        "code": "RSA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_002",
+      "match_number": 2,
+      "stage": "group",
+      "group": "A",
+      "matchday": 1,
+      "kickoff_local": "2026-06-11T20:00:00-06:00",
+      "kickoff_utc": "2026-06-12T02:00:00Z",
+      "kickoff_berlin": "2026-06-12T04:00:00+02:00",
+      "stadium_id": "estadio_akron",
+      "home": {
+        "code": "KOR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CZE",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_003",
+      "match_number": 3,
+      "stage": "group",
+      "group": "A",
+      "matchday": 8,
+      "kickoff_local": "2026-06-18T12:00:00-04:00",
+      "kickoff_utc": "2026-06-18T16:00:00Z",
+      "kickoff_berlin": "2026-06-18T18:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": "CZE",
+        "placeholder": null
+      },
+      "away": {
+        "code": "RSA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_004",
+      "match_number": 4,
+      "stage": "group",
+      "group": "A",
+      "matchday": 8,
+      "kickoff_local": "2026-06-18T19:00:00-06:00",
+      "kickoff_utc": "2026-06-19T01:00:00Z",
+      "kickoff_berlin": "2026-06-19T03:00:00+02:00",
+      "stadium_id": "estadio_akron",
+      "home": {
+        "code": "MEX",
+        "placeholder": null
+      },
+      "away": {
+        "code": "KOR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_005",
+      "match_number": 5,
+      "stage": "group",
+      "group": "A",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T19:00:00-06:00",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "kickoff_berlin": "2026-06-25T03:00:00+02:00",
+      "stadium_id": "estadio_azteca",
+      "home": {
+        "code": "CZE",
+        "placeholder": null
+      },
+      "away": {
+        "code": "MEX",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_006",
+      "match_number": 6,
+      "stage": "group",
+      "group": "A",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T19:00:00-06:00",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "kickoff_berlin": "2026-06-25T03:00:00+02:00",
+      "stadium_id": "estadio_bbva",
+      "home": {
+        "code": "RSA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "KOR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_007",
+      "match_number": 7,
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "kickoff_local": "2026-06-12T15:00:00-04:00",
+      "kickoff_utc": "2026-06-12T19:00:00Z",
+      "kickoff_berlin": "2026-06-12T21:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": "CAN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "BIH",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_008",
+      "match_number": 8,
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "kickoff_local": "2026-06-13T12:00:00-07:00",
+      "kickoff_utc": "2026-06-13T19:00:00Z",
+      "kickoff_berlin": "2026-06-13T21:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": "QAT",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SUI",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_009",
+      "match_number": 9,
+      "stage": "group",
+      "group": "B",
+      "matchday": 8,
+      "kickoff_local": "2026-06-18T12:00:00-07:00",
+      "kickoff_utc": "2026-06-18T19:00:00Z",
+      "kickoff_berlin": "2026-06-18T21:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": "SUI",
+        "placeholder": null
+      },
+      "away": {
+        "code": "BIH",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_010",
+      "match_number": 10,
+      "stage": "group",
+      "group": "B",
+      "matchday": 8,
+      "kickoff_local": "2026-06-18T15:00:00-07:00",
+      "kickoff_utc": "2026-06-18T22:00:00Z",
+      "kickoff_berlin": "2026-06-19T00:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": "CAN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "QAT",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_011",
+      "match_number": 11,
+      "stage": "group",
+      "group": "B",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T12:00:00-07:00",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "kickoff_berlin": "2026-06-24T21:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": "SUI",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CAN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_012",
+      "match_number": 12,
+      "stage": "group",
+      "group": "B",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T12:00:00-07:00",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "kickoff_berlin": "2026-06-24T21:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": "BIH",
+        "placeholder": null
+      },
+      "away": {
+        "code": "QAT",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_013",
+      "match_number": 13,
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "kickoff_local": "2026-06-13T18:00:00-04:00",
+      "kickoff_utc": "2026-06-13T22:00:00Z",
+      "kickoff_berlin": "2026-06-14T00:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": "BRA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "MAR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_014",
+      "match_number": 14,
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "kickoff_local": "2026-06-13T21:00:00-04:00",
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "kickoff_berlin": "2026-06-14T03:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": "HAI",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SCO",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_015",
+      "match_number": 15,
+      "stage": "group",
+      "group": "C",
+      "matchday": 9,
+      "kickoff_local": "2026-06-19T18:00:00-04:00",
+      "kickoff_utc": "2026-06-19T22:00:00Z",
+      "kickoff_berlin": "2026-06-20T00:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": "SCO",
+        "placeholder": null
+      },
+      "away": {
+        "code": "MAR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_016",
+      "match_number": 16,
+      "stage": "group",
+      "group": "C",
+      "matchday": 9,
+      "kickoff_local": "2026-06-19T20:30:00-04:00",
+      "kickoff_utc": "2026-06-20T00:30:00Z",
+      "kickoff_berlin": "2026-06-20T02:30:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": "BRA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "HAI",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_017",
+      "match_number": 17,
+      "stage": "group",
+      "group": "C",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T18:00:00-04:00",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "kickoff_berlin": "2026-06-25T00:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": "SCO",
+        "placeholder": null
+      },
+      "away": {
+        "code": "BRA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_018",
+      "match_number": 18,
+      "stage": "group",
+      "group": "C",
+      "matchday": 14,
+      "kickoff_local": "2026-06-24T18:00:00-04:00",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "kickoff_berlin": "2026-06-25T00:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": "MAR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "HAI",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_019",
+      "match_number": 19,
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "kickoff_local": "2026-06-12T18:00:00-07:00",
+      "kickoff_utc": "2026-06-13T01:00:00Z",
+      "kickoff_berlin": "2026-06-13T03:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": "USA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "PAR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_020",
+      "match_number": 20,
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "kickoff_local": "2026-06-13T21:00:00-07:00",
+      "kickoff_utc": "2026-06-14T04:00:00Z",
+      "kickoff_berlin": "2026-06-14T06:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": "AUS",
+        "placeholder": null
+      },
+      "away": {
+        "code": "TUR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_021",
+      "match_number": 21,
+      "stage": "group",
+      "group": "D",
+      "matchday": 9,
+      "kickoff_local": "2026-06-19T12:00:00-07:00",
+      "kickoff_utc": "2026-06-19T19:00:00Z",
+      "kickoff_berlin": "2026-06-19T21:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": "USA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "AUS",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_022",
+      "match_number": 22,
+      "stage": "group",
+      "group": "D",
+      "matchday": 9,
+      "kickoff_local": "2026-06-19T20:00:00-07:00",
+      "kickoff_utc": "2026-06-20T03:00:00Z",
+      "kickoff_berlin": "2026-06-20T05:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": "TUR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "PAR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_023",
+      "match_number": 23,
+      "stage": "group",
+      "group": "D",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T19:00:00-07:00",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "kickoff_berlin": "2026-06-26T04:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": "TUR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "USA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_024",
+      "match_number": 24,
+      "stage": "group",
+      "group": "D",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T19:00:00-07:00",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "kickoff_berlin": "2026-06-26T04:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": "PAR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "AUS",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_025",
+      "match_number": 25,
+      "stage": "group",
+      "group": "E",
+      "matchday": 4,
+      "kickoff_local": "2026-06-14T12:00:00-05:00",
+      "kickoff_utc": "2026-06-14T17:00:00Z",
+      "kickoff_berlin": "2026-06-14T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": "GER",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CUW",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_026",
+      "match_number": 26,
+      "stage": "group",
+      "group": "E",
+      "matchday": 4,
+      "kickoff_local": "2026-06-14T19:00:00-04:00",
+      "kickoff_utc": "2026-06-14T23:00:00Z",
+      "kickoff_berlin": "2026-06-15T01:00:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": "CIV",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ECU",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_027",
+      "match_number": 27,
+      "stage": "group",
+      "group": "E",
+      "matchday": 10,
+      "kickoff_local": "2026-06-20T16:00:00-04:00",
+      "kickoff_utc": "2026-06-20T20:00:00Z",
+      "kickoff_berlin": "2026-06-20T22:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": "GER",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CIV",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_028",
+      "match_number": 28,
+      "stage": "group",
+      "group": "E",
+      "matchday": 10,
+      "kickoff_local": "2026-06-20T19:00:00-05:00",
+      "kickoff_utc": "2026-06-21T00:00:00Z",
+      "kickoff_berlin": "2026-06-21T02:00:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": "ECU",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CUW",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_029",
+      "match_number": 29,
+      "stage": "group",
+      "group": "E",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T16:00:00-04:00",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "kickoff_berlin": "2026-06-25T22:00:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": "CUW",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CIV",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_030",
+      "match_number": 30,
+      "stage": "group",
+      "group": "E",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T16:00:00-04:00",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "kickoff_berlin": "2026-06-25T22:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": "ECU",
+        "placeholder": null
+      },
+      "away": {
+        "code": "GER",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_031",
+      "match_number": 31,
+      "stage": "group",
+      "group": "F",
+      "matchday": 4,
+      "kickoff_local": "2026-06-14T15:00:00-05:00",
+      "kickoff_utc": "2026-06-14T20:00:00Z",
+      "kickoff_berlin": "2026-06-14T22:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": "NED",
+        "placeholder": null
+      },
+      "away": {
+        "code": "JPN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_032",
+      "match_number": 32,
+      "stage": "group",
+      "group": "F",
+      "matchday": 4,
+      "kickoff_local": "2026-06-14T20:00:00-06:00",
+      "kickoff_utc": "2026-06-15T02:00:00Z",
+      "kickoff_berlin": "2026-06-15T04:00:00+02:00",
+      "stadium_id": "estadio_bbva",
+      "home": {
+        "code": "SWE",
+        "placeholder": null
+      },
+      "away": {
+        "code": "TUN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_033",
+      "match_number": 33,
+      "stage": "group",
+      "group": "F",
+      "matchday": 10,
+      "kickoff_local": "2026-06-20T12:00:00-05:00",
+      "kickoff_utc": "2026-06-20T17:00:00Z",
+      "kickoff_berlin": "2026-06-20T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": "NED",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SWE",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_034",
+      "match_number": 34,
+      "stage": "group",
+      "group": "F",
+      "matchday": 10,
+      "kickoff_local": "2026-06-20T22:00:00-06:00",
+      "kickoff_utc": "2026-06-21T04:00:00Z",
+      "kickoff_berlin": "2026-06-21T06:00:00+02:00",
+      "stadium_id": "estadio_bbva",
+      "home": {
+        "code": "TUN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "JPN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_035",
+      "match_number": 35,
+      "stage": "group",
+      "group": "F",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T18:00:00-05:00",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "kickoff_berlin": "2026-06-26T01:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": "JPN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SWE",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_036",
+      "match_number": 36,
+      "stage": "group",
+      "group": "F",
+      "matchday": 15,
+      "kickoff_local": "2026-06-25T18:00:00-05:00",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "kickoff_berlin": "2026-06-26T01:00:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": "TUN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "NED",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_037",
+      "match_number": 37,
+      "stage": "group",
+      "group": "G",
+      "matchday": 5,
+      "kickoff_local": "2026-06-15T12:00:00-07:00",
+      "kickoff_utc": "2026-06-15T19:00:00Z",
+      "kickoff_berlin": "2026-06-15T21:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": "BEL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "EGY",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_038",
+      "match_number": 38,
+      "stage": "group",
+      "group": "G",
+      "matchday": 5,
+      "kickoff_local": "2026-06-15T18:00:00-07:00",
+      "kickoff_utc": "2026-06-16T01:00:00Z",
+      "kickoff_berlin": "2026-06-16T03:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": "IRN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "NZL",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_039",
+      "match_number": 39,
+      "stage": "group",
+      "group": "G",
+      "matchday": 11,
+      "kickoff_local": "2026-06-21T12:00:00-07:00",
+      "kickoff_utc": "2026-06-21T19:00:00Z",
+      "kickoff_berlin": "2026-06-21T21:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": "BEL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "IRN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_040",
+      "match_number": 40,
+      "stage": "group",
+      "group": "G",
+      "matchday": 11,
+      "kickoff_local": "2026-06-21T18:00:00-07:00",
+      "kickoff_utc": "2026-06-22T01:00:00Z",
+      "kickoff_berlin": "2026-06-22T03:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": "NZL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "EGY",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_041",
+      "match_number": 41,
+      "stage": "group",
+      "group": "G",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T20:00:00-07:00",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "kickoff_berlin": "2026-06-27T05:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": "EGY",
+        "placeholder": null
+      },
+      "away": {
+        "code": "IRN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_042",
+      "match_number": 42,
+      "stage": "group",
+      "group": "G",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T20:00:00-07:00",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "kickoff_berlin": "2026-06-27T05:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": "NZL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "BEL",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_043",
+      "match_number": 43,
+      "stage": "group",
+      "group": "H",
+      "matchday": 5,
+      "kickoff_local": "2026-06-15T12:00:00-04:00",
+      "kickoff_utc": "2026-06-15T16:00:00Z",
+      "kickoff_berlin": "2026-06-15T18:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": "ESP",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CPV",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_044",
+      "match_number": 44,
+      "stage": "group",
+      "group": "H",
+      "matchday": 5,
+      "kickoff_local": "2026-06-15T18:00:00-04:00",
+      "kickoff_utc": "2026-06-15T22:00:00Z",
+      "kickoff_berlin": "2026-06-16T00:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": "KSA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "URU",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_045",
+      "match_number": 45,
+      "stage": "group",
+      "group": "H",
+      "matchday": 11,
+      "kickoff_local": "2026-06-21T12:00:00-04:00",
+      "kickoff_utc": "2026-06-21T16:00:00Z",
+      "kickoff_berlin": "2026-06-21T18:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": "ESP",
+        "placeholder": null
+      },
+      "away": {
+        "code": "KSA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_046",
+      "match_number": 46,
+      "stage": "group",
+      "group": "H",
+      "matchday": 11,
+      "kickoff_local": "2026-06-21T18:00:00-04:00",
+      "kickoff_utc": "2026-06-21T22:00:00Z",
+      "kickoff_berlin": "2026-06-22T00:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": "URU",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CPV",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_047",
+      "match_number": 47,
+      "stage": "group",
+      "group": "H",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T19:00:00-05:00",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "kickoff_berlin": "2026-06-27T02:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": "CPV",
+        "placeholder": null
+      },
+      "away": {
+        "code": "KSA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_048",
+      "match_number": 48,
+      "stage": "group",
+      "group": "H",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T18:00:00-06:00",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "kickoff_berlin": "2026-06-27T02:00:00+02:00",
+      "stadium_id": "estadio_akron",
+      "home": {
+        "code": "URU",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ESP",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_049",
+      "match_number": 49,
+      "stage": "group",
+      "group": "I",
+      "matchday": 6,
+      "kickoff_local": "2026-06-16T15:00:00-04:00",
+      "kickoff_utc": "2026-06-16T19:00:00Z",
+      "kickoff_berlin": "2026-06-16T21:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": "FRA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SEN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_050",
+      "match_number": 50,
+      "stage": "group",
+      "group": "I",
+      "matchday": 6,
+      "kickoff_local": "2026-06-16T18:00:00-04:00",
+      "kickoff_utc": "2026-06-16T22:00:00Z",
+      "kickoff_berlin": "2026-06-17T00:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": "IRQ",
+        "placeholder": null
+      },
+      "away": {
+        "code": "NOR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_051",
+      "match_number": 51,
+      "stage": "group",
+      "group": "I",
+      "matchday": 12,
+      "kickoff_local": "2026-06-22T17:00:00-04:00",
+      "kickoff_utc": "2026-06-22T21:00:00Z",
+      "kickoff_berlin": "2026-06-22T23:00:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": "FRA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "IRQ",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_052",
+      "match_number": 52,
+      "stage": "group",
+      "group": "I",
+      "matchday": 12,
+      "kickoff_local": "2026-06-22T20:00:00-04:00",
+      "kickoff_utc": "2026-06-23T00:00:00Z",
+      "kickoff_berlin": "2026-06-23T02:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": "NOR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "SEN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_053",
+      "match_number": 53,
+      "stage": "group",
+      "group": "I",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T15:00:00-04:00",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "kickoff_berlin": "2026-06-26T21:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": "NOR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "FRA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_054",
+      "match_number": 54,
+      "stage": "group",
+      "group": "I",
+      "matchday": 16,
+      "kickoff_local": "2026-06-26T15:00:00-04:00",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "kickoff_berlin": "2026-06-26T21:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": "SEN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "IRQ",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_055",
+      "match_number": 55,
+      "stage": "group",
+      "group": "J",
+      "matchday": 6,
+      "kickoff_local": "2026-06-16T20:00:00-05:00",
+      "kickoff_utc": "2026-06-17T01:00:00Z",
+      "kickoff_berlin": "2026-06-17T03:00:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": "ARG",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ALG",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_056",
+      "match_number": 56,
+      "stage": "group",
+      "group": "J",
+      "matchday": 6,
+      "kickoff_local": "2026-06-16T21:00:00-07:00",
+      "kickoff_utc": "2026-06-17T04:00:00Z",
+      "kickoff_berlin": "2026-06-17T06:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": "AUT",
+        "placeholder": null
+      },
+      "away": {
+        "code": "JOR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_057",
+      "match_number": 57,
+      "stage": "group",
+      "group": "J",
+      "matchday": 12,
+      "kickoff_local": "2026-06-22T12:00:00-05:00",
+      "kickoff_utc": "2026-06-22T17:00:00Z",
+      "kickoff_berlin": "2026-06-22T19:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": "ARG",
+        "placeholder": null
+      },
+      "away": {
+        "code": "AUT",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_058",
+      "match_number": 58,
+      "stage": "group",
+      "group": "J",
+      "matchday": 12,
+      "kickoff_local": "2026-06-22T20:00:00-07:00",
+      "kickoff_utc": "2026-06-23T03:00:00Z",
+      "kickoff_berlin": "2026-06-23T05:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": "JOR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ALG",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_059",
+      "match_number": 59,
+      "stage": "group",
+      "group": "J",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T21:00:00-05:00",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "kickoff_berlin": "2026-06-28T04:00:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": "ALG",
+        "placeholder": null
+      },
+      "away": {
+        "code": "AUT",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_060",
+      "match_number": 60,
+      "stage": "group",
+      "group": "J",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T21:00:00-05:00",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "kickoff_berlin": "2026-06-28T04:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": "JOR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ARG",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_061",
+      "match_number": 61,
+      "stage": "group",
+      "group": "K",
+      "matchday": 7,
+      "kickoff_local": "2026-06-17T12:00:00-05:00",
+      "kickoff_utc": "2026-06-17T17:00:00Z",
+      "kickoff_berlin": "2026-06-17T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": "POR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "COD",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_062",
+      "match_number": 62,
+      "stage": "group",
+      "group": "K",
+      "matchday": 7,
+      "kickoff_local": "2026-06-17T20:00:00-06:00",
+      "kickoff_utc": "2026-06-18T02:00:00Z",
+      "kickoff_berlin": "2026-06-18T04:00:00+02:00",
+      "stadium_id": "estadio_azteca",
+      "home": {
+        "code": "UZB",
+        "placeholder": null
+      },
+      "away": {
+        "code": "COL",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_063",
+      "match_number": 63,
+      "stage": "group",
+      "group": "K",
+      "matchday": 13,
+      "kickoff_local": "2026-06-23T12:00:00-05:00",
+      "kickoff_utc": "2026-06-23T17:00:00Z",
+      "kickoff_berlin": "2026-06-23T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": "POR",
+        "placeholder": null
+      },
+      "away": {
+        "code": "UZB",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_064",
+      "match_number": 64,
+      "stage": "group",
+      "group": "K",
+      "matchday": 13,
+      "kickoff_local": "2026-06-23T20:00:00-06:00",
+      "kickoff_utc": "2026-06-24T02:00:00Z",
+      "kickoff_berlin": "2026-06-24T04:00:00+02:00",
+      "stadium_id": "estadio_akron",
+      "home": {
+        "code": "COL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "COD",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_065",
+      "match_number": 65,
+      "stage": "group",
+      "group": "K",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T19:30:00-04:00",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "kickoff_berlin": "2026-06-28T01:30:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": "COL",
+        "placeholder": null
+      },
+      "away": {
+        "code": "POR",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_066",
+      "match_number": 66,
+      "stage": "group",
+      "group": "K",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T19:30:00-04:00",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "kickoff_berlin": "2026-06-28T01:30:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": "COD",
+        "placeholder": null
+      },
+      "away": {
+        "code": "UZB",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_067",
+      "match_number": 67,
+      "stage": "group",
+      "group": "L",
+      "matchday": 7,
+      "kickoff_local": "2026-06-17T15:00:00-05:00",
+      "kickoff_utc": "2026-06-17T20:00:00Z",
+      "kickoff_berlin": "2026-06-17T22:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": "ENG",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CRO",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_068",
+      "match_number": 68,
+      "stage": "group",
+      "group": "L",
+      "matchday": 7,
+      "kickoff_local": "2026-06-17T19:00:00-04:00",
+      "kickoff_utc": "2026-06-17T23:00:00Z",
+      "kickoff_berlin": "2026-06-18T01:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": "GHA",
+        "placeholder": null
+      },
+      "away": {
+        "code": "PAN",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_069",
+      "match_number": 69,
+      "stage": "group",
+      "group": "L",
+      "matchday": 13,
+      "kickoff_local": "2026-06-23T16:00:00-04:00",
+      "kickoff_utc": "2026-06-23T20:00:00Z",
+      "kickoff_berlin": "2026-06-23T22:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": "ENG",
+        "placeholder": null
+      },
+      "away": {
+        "code": "GHA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_070",
+      "match_number": 70,
+      "stage": "group",
+      "group": "L",
+      "matchday": 13,
+      "kickoff_local": "2026-06-23T19:00:00-04:00",
+      "kickoff_utc": "2026-06-23T23:00:00Z",
+      "kickoff_berlin": "2026-06-24T01:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": "PAN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "CRO",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_071",
+      "match_number": 71,
+      "stage": "group",
+      "group": "L",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T17:00:00-04:00",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "kickoff_berlin": "2026-06-27T23:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": "PAN",
+        "placeholder": null
+      },
+      "away": {
+        "code": "ENG",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_072",
+      "match_number": 72,
+      "stage": "group",
+      "group": "L",
+      "matchday": 17,
+      "kickoff_local": "2026-06-27T17:00:00-04:00",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "kickoff_berlin": "2026-06-27T23:00:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": "CRO",
+        "placeholder": null
+      },
+      "away": {
+        "code": "GHA",
+        "placeholder": null
+      },
+      "result": null
+    },
+    {
+      "id": "m_073",
+      "match_number": 73,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-28T12:00:00-07:00",
+      "kickoff_utc": "2026-06-28T19:00:00Z",
+      "kickoff_berlin": "2026-06-28T21:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "2A"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2B"
+      },
+      "result": null
+    },
+    {
+      "id": "m_074",
+      "match_number": 74,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-29T16:30:00-04:00",
+      "kickoff_utc": "2026-06-29T20:30:00Z",
+      "kickoff_berlin": "2026-06-29T22:30:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1E"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3A/B/C/D/F"
+      },
+      "result": null
+    },
+    {
+      "id": "m_075",
+      "match_number": 75,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-29T19:00:00-06:00",
+      "kickoff_utc": "2026-06-30T01:00:00Z",
+      "kickoff_berlin": "2026-06-30T03:00:00+02:00",
+      "stadium_id": "estadio_bbva",
+      "home": {
+        "code": null,
+        "placeholder": "1F"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2C"
+      },
+      "result": null
+    },
+    {
+      "id": "m_076",
+      "match_number": 76,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-29T12:00:00-05:00",
+      "kickoff_utc": "2026-06-29T17:00:00Z",
+      "kickoff_berlin": "2026-06-29T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1C"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2F"
+      },
+      "result": null
+    },
+    {
+      "id": "m_077",
+      "match_number": 77,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-30T17:00:00-04:00",
+      "kickoff_utc": "2026-06-30T21:00:00Z",
+      "kickoff_berlin": "2026-06-30T23:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1I"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3C/D/F/G/H"
+      },
+      "result": null
+    },
+    {
+      "id": "m_078",
+      "match_number": 78,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-30T12:00:00-05:00",
+      "kickoff_utc": "2026-06-30T17:00:00Z",
+      "kickoff_berlin": "2026-06-30T19:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "2E"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2I"
+      },
+      "result": null
+    },
+    {
+      "id": "m_079",
+      "match_number": 79,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-06-30T19:00:00-06:00",
+      "kickoff_utc": "2026-07-01T01:00:00Z",
+      "kickoff_berlin": "2026-07-01T03:00:00+02:00",
+      "stadium_id": "estadio_azteca",
+      "home": {
+        "code": null,
+        "placeholder": "1A"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3C/E/F/H/I"
+      },
+      "result": null
+    },
+    {
+      "id": "m_080",
+      "match_number": 80,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-01T12:00:00-04:00",
+      "kickoff_utc": "2026-07-01T16:00:00Z",
+      "kickoff_berlin": "2026-07-01T18:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1L"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3E/H/I/J/K"
+      },
+      "result": null
+    },
+    {
+      "id": "m_081",
+      "match_number": 81,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-01T17:00:00-07:00",
+      "kickoff_utc": "2026-07-02T00:00:00Z",
+      "kickoff_berlin": "2026-07-02T02:00:00+02:00",
+      "stadium_id": "levi_s_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1D"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3B/E/F/I/J"
+      },
+      "result": null
+    },
+    {
+      "id": "m_082",
+      "match_number": 82,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-01T13:00:00-07:00",
+      "kickoff_utc": "2026-07-01T20:00:00Z",
+      "kickoff_berlin": "2026-07-01T22:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": null,
+        "placeholder": "1G"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3A/E/H/I/J"
+      },
+      "result": null
+    },
+    {
+      "id": "m_083",
+      "match_number": 83,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-02T19:00:00-04:00",
+      "kickoff_utc": "2026-07-02T23:00:00Z",
+      "kickoff_berlin": "2026-07-03T01:00:00+02:00",
+      "stadium_id": "bmo_field",
+      "home": {
+        "code": null,
+        "placeholder": "2K"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2L"
+      },
+      "result": null
+    },
+    {
+      "id": "m_084",
+      "match_number": 84,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-02T12:00:00-07:00",
+      "kickoff_utc": "2026-07-02T19:00:00Z",
+      "kickoff_berlin": "2026-07-02T21:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1H"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2J"
+      },
+      "result": null
+    },
+    {
+      "id": "m_085",
+      "match_number": 85,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-02T20:00:00-07:00",
+      "kickoff_utc": "2026-07-03T03:00:00Z",
+      "kickoff_berlin": "2026-07-03T05:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": null,
+        "placeholder": "1B"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3E/F/G/I/J"
+      },
+      "result": null
+    },
+    {
+      "id": "m_086",
+      "match_number": 86,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-03T18:00:00-04:00",
+      "kickoff_utc": "2026-07-03T22:00:00Z",
+      "kickoff_berlin": "2026-07-04T00:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1J"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2H"
+      },
+      "result": null
+    },
+    {
+      "id": "m_087",
+      "match_number": 87,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-03T20:30:00-05:00",
+      "kickoff_utc": "2026-07-04T01:30:00Z",
+      "kickoff_berlin": "2026-07-04T03:30:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "1K"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "3D/E/I/J/L"
+      },
+      "result": null
+    },
+    {
+      "id": "m_088",
+      "match_number": 88,
+      "stage": "round_of_32",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-03T13:00:00-05:00",
+      "kickoff_utc": "2026-07-03T18:00:00Z",
+      "kickoff_berlin": "2026-07-03T20:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "2D"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "2G"
+      },
+      "result": null
+    },
+    {
+      "id": "m_089",
+      "match_number": 89,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-04T17:00:00-04:00",
+      "kickoff_utc": "2026-07-04T21:00:00Z",
+      "kickoff_berlin": "2026-07-04T23:00:00+02:00",
+      "stadium_id": "lincoln_financial_field",
+      "home": {
+        "code": null,
+        "placeholder": "W74"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W77"
+      },
+      "result": null
+    },
+    {
+      "id": "m_090",
+      "match_number": 90,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-04T12:00:00-05:00",
+      "kickoff_utc": "2026-07-04T17:00:00Z",
+      "kickoff_berlin": "2026-07-04T19:00:00+02:00",
+      "stadium_id": "nrg_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W73"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W75"
+      },
+      "result": null
+    },
+    {
+      "id": "m_091",
+      "match_number": 91,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-05T16:00:00-04:00",
+      "kickoff_utc": "2026-07-05T20:00:00Z",
+      "kickoff_berlin": "2026-07-05T22:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W76"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W78"
+      },
+      "result": null
+    },
+    {
+      "id": "m_092",
+      "match_number": 92,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-05T18:00:00-06:00",
+      "kickoff_utc": "2026-07-06T00:00:00Z",
+      "kickoff_berlin": "2026-07-06T02:00:00+02:00",
+      "stadium_id": "estadio_azteca",
+      "home": {
+        "code": null,
+        "placeholder": "W79"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W80"
+      },
+      "result": null
+    },
+    {
+      "id": "m_093",
+      "match_number": 93,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-06T14:00:00-05:00",
+      "kickoff_utc": "2026-07-06T19:00:00Z",
+      "kickoff_berlin": "2026-07-06T21:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W83"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W84"
+      },
+      "result": null
+    },
+    {
+      "id": "m_094",
+      "match_number": 94,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-06T17:00:00-07:00",
+      "kickoff_utc": "2026-07-07T00:00:00Z",
+      "kickoff_berlin": "2026-07-07T02:00:00+02:00",
+      "stadium_id": "lumen_field",
+      "home": {
+        "code": null,
+        "placeholder": "W81"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W82"
+      },
+      "result": null
+    },
+    {
+      "id": "m_095",
+      "match_number": 95,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-07T12:00:00-04:00",
+      "kickoff_utc": "2026-07-07T16:00:00Z",
+      "kickoff_berlin": "2026-07-07T18:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W86"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W88"
+      },
+      "result": null
+    },
+    {
+      "id": "m_096",
+      "match_number": 96,
+      "stage": "round_of_16",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-07T13:00:00-07:00",
+      "kickoff_utc": "2026-07-07T20:00:00Z",
+      "kickoff_berlin": "2026-07-07T22:00:00+02:00",
+      "stadium_id": "bc_place",
+      "home": {
+        "code": null,
+        "placeholder": "W85"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W87"
+      },
+      "result": null
+    },
+    {
+      "id": "m_097",
+      "match_number": 97,
+      "stage": "quarter_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-09T16:00:00-04:00",
+      "kickoff_utc": "2026-07-09T20:00:00Z",
+      "kickoff_berlin": "2026-07-09T22:00:00+02:00",
+      "stadium_id": "gillette_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W89"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W90"
+      },
+      "result": null
+    },
+    {
+      "id": "m_098",
+      "match_number": 98,
+      "stage": "quarter_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-10T12:00:00-07:00",
+      "kickoff_utc": "2026-07-10T19:00:00Z",
+      "kickoff_berlin": "2026-07-10T21:00:00+02:00",
+      "stadium_id": "sofi_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W93"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W94"
+      },
+      "result": null
+    },
+    {
+      "id": "m_099",
+      "match_number": 99,
+      "stage": "quarter_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-11T17:00:00-04:00",
+      "kickoff_utc": "2026-07-11T21:00:00Z",
+      "kickoff_berlin": "2026-07-11T23:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W91"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W92"
+      },
+      "result": null
+    },
+    {
+      "id": "m_100",
+      "match_number": 100,
+      "stage": "quarter_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-11T20:00:00-05:00",
+      "kickoff_utc": "2026-07-12T01:00:00Z",
+      "kickoff_berlin": "2026-07-12T03:00:00+02:00",
+      "stadium_id": "arrowhead_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W95"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W96"
+      },
+      "result": null
+    },
+    {
+      "id": "m_101",
+      "match_number": 101,
+      "stage": "semi_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-14T14:00:00-05:00",
+      "kickoff_utc": "2026-07-14T19:00:00Z",
+      "kickoff_berlin": "2026-07-14T21:00:00+02:00",
+      "stadium_id": "at_t_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W97"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W98"
+      },
+      "result": null
+    },
+    {
+      "id": "m_102",
+      "match_number": 102,
+      "stage": "semi_final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-15T15:00:00-04:00",
+      "kickoff_utc": "2026-07-15T19:00:00Z",
+      "kickoff_berlin": "2026-07-15T21:00:00+02:00",
+      "stadium_id": "mercedes_benz_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W99"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W100"
+      },
+      "result": null
+    },
+    {
+      "id": "m_103",
+      "match_number": 103,
+      "stage": "third_place",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-18T17:00:00-04:00",
+      "kickoff_utc": "2026-07-18T21:00:00Z",
+      "kickoff_berlin": "2026-07-18T23:00:00+02:00",
+      "stadium_id": "hard_rock_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "L101"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "L102"
+      },
+      "result": null
+    },
+    {
+      "id": "m_104",
+      "match_number": 104,
+      "stage": "final",
+      "group": null,
+      "matchday": null,
+      "kickoff_local": "2026-07-19T15:00:00-04:00",
+      "kickoff_utc": "2026-07-19T19:00:00Z",
+      "kickoff_berlin": "2026-07-19T21:00:00+02:00",
+      "stadium_id": "metlife_stadium",
+      "home": {
+        "code": null,
+        "placeholder": "W101"
+      },
+      "away": {
+        "code": null,
+        "placeholder": "W102"
+      },
+      "result": null
+    }
+  ],
+  "bonus_questions": [
+    {
+      "id": "bq_winner",
+      "label": "Weltmeister",
+      "type": "team",
+      "points": 15,
+      "deadline": "2026-06-11T16:00:00Z"
+    },
+    {
+      "id": "bq_runner_up",
+      "label": "Finalist (Vize-Weltmeister)",
+      "type": "team",
+      "points": 8,
+      "deadline": "2026-06-11T16:00:00Z"
+    },
+    {
+      "id": "bq_third",
+      "label": "Drittplatzierter",
+      "type": "team",
+      "points": 5,
+      "deadline": "2026-06-11T16:00:00Z"
+    },
+    {
+      "id": "bq_top_scorer",
+      "label": "Torschützenkönig",
+      "type": "player",
+      "points": 10,
+      "deadline": "2026-06-11T16:00:00Z"
+    },
+    {
+      "id": "bq_dark_horse",
+      "label": "Geheimfavorit (erreicht mind. Viertelfinale)",
+      "type": "team",
+      "points": 6,
+      "deadline": "2026-06-11T16:00:00Z"
+    }
+  ]
+}
