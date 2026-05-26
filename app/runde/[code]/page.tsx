@@ -12,8 +12,8 @@ export default async function RundePage({ params }: Props) {
   if (!group) notFound();
 
   const members: Array<{ nickname: string }> =
-    (group.group_members as Array<{ users: { nickname: string } }>)
-      ?.map((m) => ({ nickname: m.users?.nickname ?? "?" })) ?? [];
+    (group.group_members as Array<{ alias: string }>)
+      ?.map((m) => ({ nickname: m.alias ?? "?" })) ?? [];
 
   return (
     <main className="max-w-lg mx-auto px-4 py-8 space-y-6">

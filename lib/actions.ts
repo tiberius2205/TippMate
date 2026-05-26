@@ -103,7 +103,7 @@ export async function getGroupByCode(code: string) {
   const supabase = await createClient();
   const { data } = await supabase
     .from("groups")
-    .select("*, group_members(user_id, users(nickname))")
+    .select("*, group_members(user_id, alias)")
     .eq("code", code.toUpperCase())
     .single();
   return data;
