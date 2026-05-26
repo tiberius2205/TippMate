@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { getStoredUserId, setStoredUserId } from "@/lib/user";
+import { getStoredUserId, setStoredUserId, clearStoredUserId } from "@/lib/user";
 import {
   createUser,
   getUser,
@@ -43,14 +43,22 @@ export default function LandingClient() {
 
   useEffect(() => {
     const id = getStoredUserId();
-    if (id) loadHome(id);
-  }, []);
+    if (!id) return;
+    (async () => {
+      await loadHome(id);
+    })();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function loadHome(id: string) {
     setLoading(true);
     try {
       const [user, groups] = await Promise.all([getUser(id), getMyGroups(id)]);
-      if (user) setProfileName(user.nickname);
+      if (!user) {
+        clearStoredUserId();
+        setStep("nickname");
+        return;
+      }
+      setProfileName(user.nickname);
       setUserId(id);
       setMyGroups(groups ?? []);
       setStep("home");
