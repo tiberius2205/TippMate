@@ -49,13 +49,13 @@ export async function createGroup(
   const { data, error } = await supabase
     .from("groups")
     .insert({ code, name: name.trim(), created_by: userId })
-    .select("code")
+    .select("id, code")
     .single();
 
   if (error) return { error: error.message };
 
   // Ersteller sofort als Mitglied hinzufügen
-  await supabase.from("group_members").insert({ group_id: data.code, user_id: userId });
+  await supabase.from("group_members").insert({ group_id: data.id, user_id: userId });
 
   return { code: data.code };
 }

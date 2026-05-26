@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { matches } from "@/lib/data";
 import { calcPoints } from "@/lib/scoring";
 import type { DbResult, DbTip, Stage } from "@/types/wm";
+import RealtimeRefresher from "@/components/RealtimeRefresher";
 
 interface Props {
   params: Promise<{ code: string }>;
@@ -91,6 +92,7 @@ export default async function TabellePage({ params }: Props) {
 
   return (
     <main className="max-w-lg mx-auto px-4 py-6 space-y-5">
+      <RealtimeRefresher />
       <div className="flex items-center gap-3">
         <Link href={`/runde/${code}`} className="text-gray-400 hover:text-white text-sm">
           ← Zurück
