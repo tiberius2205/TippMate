@@ -34,7 +34,7 @@ export default async function TabellePage({ params }: Props) {
   // Mitglieder
   const { data: members } = await supabase
     .from("group_members")
-    .select("user_id, users(nickname)")
+    .select("user_id, alias")
     .eq("group_id", group.id);
 
   if (!members || members.length === 0) {
@@ -82,7 +82,7 @@ export default async function TabellePage({ params }: Props) {
 
       return {
         user_id: member.user_id,
-        nickname: (member.users as unknown as { nickname: string } | null)?.nickname ?? "?",
+        nickname: (member as unknown as { alias: string }).alias ?? "?",
         total_points: total,
         exact_results: exact,
         tipped_count: memberTips.length,
